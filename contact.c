@@ -94,6 +94,7 @@ void createContact(AddressBook *addressBook)
                     } while (out!='n');
                 printf("Do you want to continue again (y or n): ");
                 scanf(" %c",&out); 
+                while (getchar() != '\n');
         }while (out!='n');   
     }
 }
